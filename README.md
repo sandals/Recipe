@@ -1,4 +1,4 @@
-Recipe
+RecipeSite
 ======
 
 Simple recipe app that builds on what's currently available(not much).

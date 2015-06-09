@@ -1,0 +1,9 @@
+%h1 Recipe Site
+
+= link_to 'New Recipe', new_recipe_path
+
+%h2 Latest Recipes
+
+- @recipes.each do |recipe|
+  = link_to recipe.title, recipe
+  %p= recipe.description
